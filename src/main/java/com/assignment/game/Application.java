@@ -10,7 +10,7 @@ public class Application {
         for (int i = 0; i < NO_OF_SIMULATIONS; i++) {
             var result = new GameServiceImpl(NO_OF_BOXES)
                     .run();
-            System.out.println("Round result is" + result);
+            System.out.println(result.toString());
         }
     }
 }

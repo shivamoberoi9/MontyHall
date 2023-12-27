@@ -8,7 +8,7 @@ public class Utils {
         return new Random().nextInt(numberOfBoxes);
     }
 
-    public static boolean getRandomBoolean(){
+    public static boolean getRandomBoolean() {
         return new Random().nextBoolean();
     }
 }
